@@ -39,7 +39,7 @@ const Card = () => {
         />
         <button
           onClick={() => {
-            setFull_name("Ismi: " + name + " Familyasi: " + first_name);
+            setFull_name("Ismi:  " + name + " Familyasi: " + first_name);
           }}
         >
           Saqlash
