@@ -1,0 +1,61 @@
+.main {
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    background-color: rgb(90, 23, 245);
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 20%;
+}
+.firstInput {
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.secondInput {
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 16px;
+    transition: all .5s ease;
+}
+.btn:hover{
+    background-color: red;
+
+}
+.result {
+    display: flex;
+    flex-direction: column;
+}
+.result{
+    width: 300px;
+    height: 35px;
+    margin: 25px auto;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding-top: 10px;
+}
