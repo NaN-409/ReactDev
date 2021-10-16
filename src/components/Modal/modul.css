@@ -36,9 +36,9 @@
     justify-content: space-between;
     box-sizing: border-box;
 }
-/* .inModal h2{
-    padding-left: 25px;
-} */
+.inModalForm .warning {
+    color: red;
+}
 .closeBtn {
     font-size: 25px;    
     margin-right: 50px;
